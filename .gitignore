@@ -1,0 +1,10 @@
+node_modules
+build
+_build
+extension/manifest.json
+extension/dist
+.DS_Store
+.env
+.env.*
+.zip
+package/*
