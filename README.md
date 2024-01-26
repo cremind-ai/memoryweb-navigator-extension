@@ -1,4 +1,4 @@
-# cremind-extension
+# memoryweb-navigator-extension
 
 ![star][star-image]
 [![author][author-image]][author-url]

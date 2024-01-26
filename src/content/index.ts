@@ -36,6 +36,7 @@ function initExtension() {
 
 const el = document.querySelector("body");
 if (el) {
+  console.log("body is already");
   initExtension();
 } else {
   document.addEventListener("DOMContentLoaded", function () {

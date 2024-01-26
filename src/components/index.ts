@@ -1,2 +1,3 @@
 import LoadImg from "./LoadImg.vue";
-export { LoadImg };
+import ContentWrap from "./ContentWrap.vue";
+export { LoadImg, ContentWrap };

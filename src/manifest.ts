@@ -31,8 +31,9 @@ export default defineManifest({
   },
   content_scripts: [
     {
-      matches: ["http://*/*", "https://*/*"],
-      exclude_matches: ["https://chat.openai.com/*"],
+      // matches: ["http://*/*", "https://*/*"],
+      // exclude_matches: ["https://www.facebook.com/*"],
+      matches: ["https://e.vnexpress.net/*"],
       js: ["src/content/index.ts"],
       run_at: "document_start",
     },
@@ -44,5 +45,5 @@ export default defineManifest({
     },
   ],
   host_permissions: ["<all_urls>"],
-  permissions: ["storage", "contextMenus"],
+  permissions: ["storage", "contextMenus", "tabs", "activeTab"],
 });
